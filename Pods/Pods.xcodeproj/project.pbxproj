@@ -1,0 +1,1340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032F877127CB819B89EEF1CD59F35190 /* AssetVideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ACF8C1325F2567D676AECE589984F3 /* AssetVideoScrollView.swift */; };
+		041CA92C0D46D81F87C1B18020FE9D92 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF58DE6213D3FB5139A4CC7597F2E3 /* CALayer+Hero.swift */; };
+		06B0C6AE124E92EC5809C2A7030F2060 /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB5D327B62723766A79868BC28C304B /* MatchPreprocessor.swift */; };
+		06C88826E89A352EACFE13784F08B7F6 /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207F2A0C4001B98988C3BE8CC95255B /* HeroTransition.swift */; };
+		084A42F97C9368ECB9C3C1BD50B83EAC /* VideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F90A44873BC30E10F0E11F8FA4573 /* VideoScrollView.swift */; };
+		0D6BFBEBAF1D18452007F08B6DB37010 /* HeroViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85E2B2747632E6E3CD7AAA0BF725FA /* HeroViewControllerDelegate.swift */; };
+		0FE5A90BC0B6621E2EA004264E3DB35E /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28B22D8492F884BED962D076377EF2C /* BasePreprocessor.swift */; };
+		11F8AE060A4566C9D9135514A5C68914 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FEDA51FEC412B833DDB373CF6C3733 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */; };
+		1930B7608D16293CE006BBFFA59D2227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		1D4A0EA4421D56B62087B001686F3792 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5752D6777C52B9B503CDEA6CCA7222F9 /* HeroTransition+UITabBarControllerDelegate.swift */; };
+		1DB7A04206F18E45426C2B20899D7508 /* BorderLine.png in Resources */ = {isa = PBXBuildFile; fileRef = B4C0A01038D1C21390FE6F2C283EF830 /* BorderLine.png */; };
+		27D2BB7855E00D79B875CBC6F3DB6D9F /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EDA7015651C0449F2CDC452DAEE55E /* Lexer.swift */; };
+		2CBBF6F1C1E540A30DC5DB1A53D3E8D9 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942BEB549AC7459A1FC8E6D431C8634E /* Array+HeroModifier.swift */; };
+		2E8D7A67F82F92D81D014F2248C09597 /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1AE36EA7C761BBC20826F0C55E1E22 /* HeroProgressRunner.swift */; };
+		2F9BEBF24A5BE5BDD230F3A04074194E /* ABStartIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD79C974D99F826DCD87A782987895A /* ABStartIndicator.swift */; };
+		3128FA0C6EF67C366889FD25B20C26B7 /* PryntTrimmerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF05434C43FF6DC2F66FB19DFD19B3AE /* PryntTrimmerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36461766F1FBCA4074DBF606F39F62F4 /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE559CB0B750C516885FF011D1C7A239 /* UIView+Hero.swift */; };
+		3E0A0BEAC7C68BAED10C1A50209407E2 /* StartIndicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2CA2BFAA66DB50EF147AADD6EADAB /* StartIndicator.png */; };
+		425982410476D4F38E665418296EA801 /* PryntTrimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F79E448F1B64FF759E1C35E4195791A /* PryntTrimmerView.swift */; };
+		440BE68E5175E87D0F2F7B66BDFFD791 /* Pods-FiverrProblem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0E78ED98D5BB56EF3B2094C3AD2EAA /* Pods-FiverrProblem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44AEABC5F5679A754E992096DAA3F006 /* ABVideoRangeSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 884F9E072E443D3778D5DA7C99B3F5D4 /* ABVideoRangeSlider-dummy.m */; };
+		4763B2EC203665F41F33D93CF55EC1F1 /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58495B4C1A772B4C9AE6AD35ED48AAAA /* HeroTransition+Animate.swift */; };
+		4C8CA3AC7D7E3484EA8B78C20FA345CA /* HeroModifier+Advanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB645FA54E7A84062B887F165E8AD44E /* HeroModifier+Advanced.swift */; };
+		52EBA869576A1B7FF128DB43C230EEE8 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE330A14A9E4865BF46055721A9C63 /* CascadePreprocessor.swift */; };
+		539247331D4D80E4E552FA040A59C197 /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FE51C071049F658F90D1267A8FA578 /* HeroDebugView.swift */; };
+		55704DD60E8BEE2188893CABB1AADE17 /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932D0101FC4467ED655D9DF2B19447C /* HeroContext.swift */; };
+		57E1A080775FABEE03909D2857093E92 /* StartIndicator.png in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2CA2BFAA66DB50EF147AADD6EADAB /* StartIndicator.png */; };
+		5DDC3018F680E30345A04B35009712E7 /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873E0662ABD76DE61A700312031FF36 /* CG+Hero.swift */; };
+		5DEDE15AAB513151B185392D0209F4BC /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3190B96AAD04C8D8F711FFF63A1CEF76 /* HeroDebugPlugin.swift */; };
+		5F7C38DDDB51AB141B192A24CB96E754 /* ABBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52887AACC248F702F76A380D13DCE920 /* ABBorder.swift */; };
+		608632DA7CE64A8D37ACF3B8B11BD48D /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEB641CD9D2D9C65496B2FF66CFA6C /* HeroModifier.swift */; };
+		62263A21E0650D08416E04F02DA349B2 /* EndIndicator.png in Sources */ = {isa = PBXBuildFile; fileRef = 4E0075051CD88A15C650795607263D2E /* EndIndicator.png */; };
+		642B7D75DA02ED8CE8BD3E85574ADC9D /* ABVideoRangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365BFC1A264CD1F5592697FCBF4BFD57 /* ABVideoRangeSlider.swift */; };
+		65E7526915C6C92F9DC44F140A3F0E60 /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E891DAF8A24488D4EC1E3882E0DF5 /* HeroTargetState.swift */; };
+		679E1C2EA93185E89E46AC2D7DF8BBB3 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEFDC5F28615F400ECAB221B3487A9 /* CAMediaTimingFunction+Hero.swift */; };
+		71592D65D5A99C144B9CE0115C5F9DDF /* EndIndicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0075051CD88A15C650795607263D2E /* EndIndicator.png */; };
+		72177310AEDF6C437F20DF4615CB21DB /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1522F4B73F9324E1FEA2B281B8BFD9 /* ConditionalPreprocessor.swift */; };
+		72E3F2FA05F2A544EC833DE269E6FB37 /* ABEndIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445DA05E34849B8A412A534429C54E78 /* ABEndIndicator.swift */; };
+		79AC849669741DC41B762F02D976F3B3 /* VideoCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94592862BEF56FEB6476B7DDD1FA5493 /* VideoCropView.swift */; };
+		7CBC1160AEE3BB9245C4325E67916106 /* ABVideoRangeSlider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EEDB24BC4E8930ED219E94BDED0B4DD /* ABVideoRangeSlider.bundle */; };
+		85D6216A7732A66EB560593B3A226820 /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23371C220D6096EA3B7B6C760AA3CD1 /* HeroPlugin.swift */; };
+		86311C5BAE9AD426446199988F3567AF /* HeroCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE4D356AF2CCB9312AFF0FAE9AA59D9 /* HeroCompatible.swift */; };
+		871A9310FFADC00A759B171CD1B61EB2 /* ABVideoRangeSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FEDC9C549085DA1553C6E4CAF11B571 /* ABVideoRangeSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AB1E598B721098E1EB51F45D7D86629 /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6135A7C35E06A881C7DE118565BB2C /* HeroCoreAnimationViewContext.swift */; };
+		8FE524682461A32D247F3280857E8576 /* ThumbSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1BE32B07941B6AC4C13F4020CF713A /* ThumbSelectorView.swift */; };
+		90B637ED180D169AF9776CEC5ABC4FE8 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B652AB1223F15D8BDC6183BCB98398 /* SwiftSupport.swift */; };
+		94C24F4688FC7D72E2EB70186B376B26 /* HeroTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2EE2E6B1C476DE01841A885C2ED0AC /* HeroTransition+Start.swift */; };
+		9A446D59771619CADF996E3FB77001EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		9A7AB4248E478CDA2C60C0DD5F97B66E /* HeroTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7420E22075E815C1BCD51ADA143D0 /* HeroTransition+CustomTransition.swift */; };
+		9AB91EA6A797C9DC7D59ECA44B4E0174 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD2C13AB605F39841A21F63342757CE /* Regex.swift */; };
+		9B6A092AE6604A4763E6D0EEAD3C3D9B /* HeroTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A21E12F5DCBFB9F27A60C365F35C0 /* HeroTransitionState.swift */; };
+		9E9A48A0F105255850019FF9D639F904 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9B3673E7D547AD4A96D573EDDAA319 /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		A1C503843AC95229CA9962770191D8CB /* AVAssetTimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC3BD7B0521B48AC53442A5F50BA716 /* AVAssetTimeSelector.swift */; };
+		A574F428B0B1CC8CC0F546411C694F14 /* ABThumbnailsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B720A13220221882459A667509C102 /* ABThumbnailsManager.swift */; };
+		A5843C82FF9ACE79DDBC357FE61C08CC /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE388F13FA87DCA3D8E9A1DF445B6292 /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5E29FFF6ECF9FF58C0A9B572D603FD4 /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1864C5B60B6F1AC03B75299F5BFFDA /* SourcePreprocessor.swift */; };
+		A6A2559E024B45B600CC3CA211FE5B3A /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD30799AEBDEF33B33E490CE56C8A00 /* DispatchQueue+Hero.swift */; };
+		AA1E77A89452EC8F454C55D974BB3624 /* Pods-FiverrProblem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAAF6D7E6A64DD2D9B486E912356A5 /* Pods-FiverrProblem-dummy.m */; };
+		AA25FDDA3FE1E75463E2067B761761E7 /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727D2D0B873D03FF9BF17AB0D95A9F7 /* UIViewController+Hero.swift */; };
+		AEB358B5D1B0B3ADE081FC6B8B205A05 /* ABVideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5560C601DD6E636253E2968264A8F709 /* ABVideoHelper.swift */; };
+		B47B377106D48A971F34C95FD6027D4E /* HandlerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A898E29447CF929B17DBDEEFC7A5D76C /* HandlerView.swift */; };
+		BBB562E939DF58537B4EE216C7813FF7 /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFB82CA33BD3D30DD3D10D211B80D /* UIKit+Hero.swift */; };
+		C3AB21A4DC75127283411720780552E8 /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EEEE63E2743296E799B0187F3F8F8C /* HeroDefaultAnimator.swift */; };
+		C4646B7D6A6176129F77BD6B565BFE36 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F878B18963BD1FB9E7A1B04D9A94356 /* Nodes.swift */; };
+		C4DFF2EA6A6AD7648BA02AB0EDB0915A /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD95ACD1E629D76BC99D20B6A955FC /* HeroStringConvertible.swift */; };
+		C5AB22DD42B6AA62AC5D725790F59562 /* ABTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B887A053F7538B3F6AA12733B0D882B3 /* ABTimeView.swift */; };
+		CB9E8000547AB60855A6ED368B1475FD /* ProgressIndicator.png in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C54ED3B6C8F464AE51CA4BD0E189 /* ProgressIndicator.png */; };
+		CC776C8B70A6644A8A23B66CE308E096 /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCFC1E211DFFA8F991AB39540F07E47 /* HeroTransition+Interactive.swift */; };
+		CCAF138A54D9CCBE7EE681AB3A2FEE17 /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF1832A9A5A6947948EF3BC6171DEFE /* Hero-dummy.m */; };
+		D3C970377C27DBB458631F4B28F6904E /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F3E59CE65057F7453BAC90305D6D1 /* DefaultAnimationPreprocessor.swift */; };
+		D74763600C338B53301552C4D9F9D2B1 /* BorderLine.png in Sources */ = {isa = PBXBuildFile; fileRef = B4C0A01038D1C21390FE6F2C283EF830 /* BorderLine.png */; };
+		D91F76CB9193007B6FC71FF6F511B0F8 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A604397AED98E3469EDC58B111EE97F3 /* HeroTransition+UINavigationControllerDelegate.swift */; };
+		D9739FB131C5C02BA12A4E88F628EE12 /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5B8DBFF55E960FE76CC3F3032FE75B /* HeroModifier+HeroStringConvertible.swift */; };
+		DE80B9AF667DBF5CADB551C10380A9A8 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6A1D78216F98F0477F82191DF8F3A /* Parser.swift */; };
+		DE8E776E8C471D1A399FC69AFDBA36DC /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A95341F0467C481F972DC0FDAC8A9C /* HeroViewPropertyViewContext.swift */; };
+		E395FF2FA22F8CA5B8F672CC3C8A2798 /* ProgressIndicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C54ED3B6C8F464AE51CA4BD0E189 /* ProgressIndicator.png */; };
+		E4F1B141B0DD7084DA4002CA4EF6A589 /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04761AFE0C46C92E51F4E707F070A81A /* HeroAnimatorViewContext.swift */; };
+		E6F4D1AA87BE2E09EFB06D3A7DB61858 /* PryntTrimmerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E66B1E07F8CC49C40AAD620950023A7D /* PryntTrimmerView-dummy.m */; };
+		EAB22516ACAA6EA3DA06A1BE26196675 /* CropMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF0AFBE0495A9C9D03E1FF44E4EB78 /* CropMaskView.swift */; };
+		F037C7FAD83D58530BFCD833D94FC4E3 /* ABProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85453F5EA482E4D62CDDBE7961592AFD /* ABProgressIndicator.swift */; };
+		F37A71B06EEFF6D96FA6CEC616734061 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		F4B556A39C957FEB80FD575D5A3A48EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		F9413432E8A729629E6F799D5B53E06C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		FD4BBEFE1DE51AEBB6E45C878A16A778 /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF953B0E0FE942F0F84C840B69AD6283 /* HeroTypes.swift */; };
+		FE2F2C0C6E8AE25776E5668D725AC6DF /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CEA142FC61176766B8F96540D839A9 /* HeroTransition+Complete.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		430FDB5996A5AADAB8AB98DC7CED2E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492A3F539D36426FFCED62F4F58F688B;
+			remoteInfo = PryntTrimmerView;
+		};
+		D6CB0BB544B80D9DD5FD5AB5AFC36D19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3893AEA4D7DBB9A086E889FC469132D;
+			remoteInfo = Hero;
+		};
+		D7970CD5B6221D7C7273472905CFEDB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD08E8115B925C1A5CB379952D15803;
+			remoteInfo = ABVideoRangeSlider;
+		};
+		E250BADCC447F7B03F88ED37A2CA068E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EE58D1C4D795B9570EE8FA9A3C93A48;
+			remoteInfo = "ABVideoRangeSlider-ABVideoRangeSlider";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A988A17A55F0B32A82A7C8A3B454BF /* Pods_FiverrProblem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FiverrProblem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E376F084BFA20D5EAAD395ADFD3F96 /* ABVideoRangeSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ABVideoRangeSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04761AFE0C46C92E51F4E707F070A81A /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
+		09FE51C071049F658F90D1267A8FA578 /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = "Sources/Debug Plugin/HeroDebugView.swift"; sourceTree = "<group>"; };
+		0AC3BD7B0521B48AC53442A5F50BA716 /* AVAssetTimeSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVAssetTimeSelector.swift; path = PryntTrimmerView/Classes/Parents/AVAssetTimeSelector.swift; sourceTree = "<group>"; };
+		0BB5D327B62723766A79868BC28C304B /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		0FEDC9C549085DA1553C6E4CAF11B571 /* ABVideoRangeSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABVideoRangeSlider-umbrella.h"; sourceTree = "<group>"; };
+		110673F875BEE320B82CA79684FB829D /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hero.modulemap; sourceTree = "<group>"; };
+		13E778F4B833EE5D7ABE882406A8215E /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		150E563E5A8E0DAFCBA50433C608F1A8 /* Pods-FiverrProblem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FiverrProblem.debug.xcconfig"; sourceTree = "<group>"; };
+		1727D2D0B873D03FF9BF17AB0D95A9F7 /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
+		1932D0101FC4467ED655D9DF2B19447C /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
+		1A0F3E59CE65057F7453BAC90305D6D1 /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/Preprocessors/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
+		1AD2C13AB605F39841A21F63342757CE /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
+		1D1864C5B60B6F1AC03B75299F5BFFDA /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		21C6A1D78216F98F0477F82191DF8F3A /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
+		24EDA7015651C0449F2CDC452DAEE55E /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
+		25EEEE63E2743296E799B0187F3F8F8C /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		27E9D1FD12D0AFFF71859A16C67A59F0 /* Pods-FiverrProblem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FiverrProblem.modulemap"; sourceTree = "<group>"; };
+		29FEDA51FEC412B833DDB373CF6C3733 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/HeroTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		2A1AE36EA7C761BBC20826F0C55E1E22 /* HeroProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroProgressRunner.swift; path = Sources/Transition/HeroProgressRunner.swift; sourceTree = "<group>"; };
+		2ABEE95022248DF0460F00805B321450 /* Pods-FiverrProblem-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FiverrProblem-frameworks.sh"; sourceTree = "<group>"; };
+		2C0D6495B79275CF6582176DDE41C064 /* PryntTrimmerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PryntTrimmerView-prefix.pch"; sourceTree = "<group>"; };
+		2DD79C974D99F826DCD87A782987895A /* ABStartIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABStartIndicator.swift; path = ABVideoRangeSlider/Classes/ABStartIndicator.swift; sourceTree = "<group>"; };
+		2F0E104ABC8AEFAD88CD077BD17D7CC7 /* ABVideoRangeSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABVideoRangeSlider-prefix.pch"; sourceTree = "<group>"; };
+		2FA2CA2BFAA66DB50EF147AADD6EADAB /* StartIndicator.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = StartIndicator.png; path = ABVideoRangeSlider/Assets/StartIndicator.png; sourceTree = "<group>"; };
+		30B652AB1223F15D8BDC6183BCB98398 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = Sources/SwiftSupport.swift; sourceTree = "<group>"; };
+		30D85B7D8E7AB56849DBFA3E78B7AE3F /* PryntTrimmerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PryntTrimmerView.modulemap; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3190B96AAD04C8D8F711FFF63A1CEF76 /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
+		365BFC1A264CD1F5592697FCBF4BFD57 /* ABVideoRangeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABVideoRangeSlider.swift; path = ABVideoRangeSlider/Classes/ABVideoRangeSlider.swift; sourceTree = "<group>"; };
+		3729F449FB30D82E83A583530D9F0288 /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
+		3C5F90A44873BC30E10F0E11F8FA4573 /* VideoScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoScrollView.swift; path = PryntTrimmerView/Classes/Cropper/VideoScrollView.swift; sourceTree = "<group>"; };
+		3C6135A7C35E06A881C7DE118565BB2C /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		445DA05E34849B8A412A534429C54E78 /* ABEndIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABEndIndicator.swift; path = ABVideoRangeSlider/Classes/ABEndIndicator.swift; sourceTree = "<group>"; };
+		48CEA142FC61176766B8F96540D839A9 /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Complete.swift"; path = "Sources/Transition/HeroTransition+Complete.swift"; sourceTree = "<group>"; };
+		4B54E860807DDAA0215F7DACCA75D13B /* PryntTrimmerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PryntTrimmerView-Info.plist"; sourceTree = "<group>"; };
+		4E0075051CD88A15C650795607263D2E /* EndIndicator.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = EndIndicator.png; path = ABVideoRangeSlider/Assets/EndIndicator.png; sourceTree = "<group>"; };
+		4F79E448F1B64FF759E1C35E4195791A /* PryntTrimmerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PryntTrimmerView.swift; path = PryntTrimmerView/Classes/Trimmer/PryntTrimmerView.swift; sourceTree = "<group>"; };
+		521E891DAF8A24488D4EC1E3882E0DF5 /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
+		52887AACC248F702F76A380D13DCE920 /* ABBorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABBorder.swift; path = ABVideoRangeSlider/Classes/ABBorder.swift; sourceTree = "<group>"; };
+		53C6951EFA64B1EF1EE07AA824E3E63E /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		5560C601DD6E636253E2968264A8F709 /* ABVideoHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABVideoHelper.swift; path = ABVideoRangeSlider/Classes/ABVideoHelper.swift; sourceTree = "<group>"; };
+		5752D6777C52B9B503CDEA6CCA7222F9 /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
+		58495B4C1A772B4C9AE6AD35ED48AAAA /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
+		5DD30799AEBDEF33B33E490CE56C8A00 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
+		622BFB82CA33BD3D30DD3D10D211B80D /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
+		64834D482F998A5E95DB9C63B9843DC7 /* PryntTrimmerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PryntTrimmerView.xcconfig; sourceTree = "<group>"; };
+		66448C226613395FF3393FCA74DAEFA5 /* ABVideoRangeSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABVideoRangeSlider.xcconfig; sourceTree = "<group>"; };
+		66AF0AFBE0495A9C9D03E1FF44E4EB78 /* CropMaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropMaskView.swift; path = PryntTrimmerView/Classes/Cropper/CropMaskView.swift; sourceTree = "<group>"; };
+		66BD95ACD1E629D76BC99D20B6A955FC /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/Parser/HeroStringConvertible.swift; sourceTree = "<group>"; };
+		6873E0662ABD76DE61A700312031FF36 /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
+		74016D2AF2F47557397334164F0FC691 /* Pods-FiverrProblem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FiverrProblem-Info.plist"; sourceTree = "<group>"; };
+		7B5B8DBFF55E960FE76CC3F3032FE75B /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
+		85453F5EA482E4D62CDDBE7961592AFD /* ABProgressIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABProgressIndicator.swift; path = ABVideoRangeSlider/Classes/ABProgressIndicator.swift; sourceTree = "<group>"; };
+		85C6C54ED3B6C8F464AE51CA4BD0E189 /* ProgressIndicator.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ProgressIndicator.png; path = ABVideoRangeSlider/Assets/ProgressIndicator.png; sourceTree = "<group>"; };
+		884F9E072E443D3778D5DA7C99B3F5D4 /* ABVideoRangeSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABVideoRangeSlider-dummy.m"; sourceTree = "<group>"; };
+		8F878B18963BD1FB9E7A1B04D9A94356 /* Nodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nodes.swift; path = Sources/Parser/Nodes.swift; sourceTree = "<group>"; };
+		9207F2A0C4001B98988C3BE8CC95255B /* HeroTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransition.swift; path = Sources/Transition/HeroTransition.swift; sourceTree = "<group>"; };
+		942BEB549AC7459A1FC8E6D431C8634E /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
+		94592862BEF56FEB6476B7DDD1FA5493 /* VideoCropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoCropView.swift; path = PryntTrimmerView/Classes/Cropper/VideoCropView.swift; sourceTree = "<group>"; };
+		9A0E78ED98D5BB56EF3B2094C3AD2EAA /* Pods-FiverrProblem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FiverrProblem-umbrella.h"; sourceTree = "<group>"; };
+		9A9F9145C3FC4925CB611FE74D6CBC9F /* Pods-FiverrProblem-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FiverrProblem-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EEDB24BC4E8930ED219E94BDED0B4DD /* ABVideoRangeSlider.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABVideoRangeSlider.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05A21E12F5DCBFB9F27A60C365F35C0 /* HeroTransitionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransitionState.swift; path = Sources/Transition/HeroTransitionState.swift; sourceTree = "<group>"; };
+		A604397AED98E3469EDC58B111EE97F3 /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		A898E29447CF929B17DBDEEFC7A5D76C /* HandlerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HandlerView.swift; path = PryntTrimmerView/Classes/Trimmer/HandlerView.swift; sourceTree = "<group>"; };
+		AA85E2B2747632E6E3CD7AAA0BF725FA /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
+		AB9B3673E7D547AD4A96D573EDDAA319 /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		ADE4D356AF2CCB9312AFF0FAE9AA59D9 /* HeroCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCompatible.swift; path = Sources/HeroCompatible.swift; sourceTree = "<group>"; };
+		AE559CB0B750C516885FF011D1C7A239 /* UIView+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Hero.swift"; path = "Sources/Extensions/UIView+Hero.swift"; sourceTree = "<group>"; };
+		B4C0A01038D1C21390FE6F2C283EF830 /* BorderLine.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = BorderLine.png; path = ABVideoRangeSlider/Assets/BorderLine.png; sourceTree = "<group>"; };
+		B887A053F7538B3F6AA12733B0D882B3 /* ABTimeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABTimeView.swift; path = ABVideoRangeSlider/Classes/ABTimeView.swift; sourceTree = "<group>"; };
+		BB012ED0E9F1F61CB4F0FE033606E3D9 /* ABVideoRangeSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ABVideoRangeSlider.modulemap; sourceTree = "<group>"; };
+		BE2EE2E6B1C476DE01841A885C2ED0AC /* HeroTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Start.swift"; path = "Sources/Transition/HeroTransition+Start.swift"; sourceTree = "<group>"; };
+		BF05434C43FF6DC2F66FB19DFD19B3AE /* PryntTrimmerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PryntTrimmerView-umbrella.h"; sourceTree = "<group>"; };
+		C23371C220D6096EA3B7B6C760AA3CD1 /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
+		C8CEFDC5F28615F400ECAB221B3487A9 /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
+		C921F5323140A584551C8F22176A12FB /* Pods-FiverrProblem-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FiverrProblem-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9EEB641CD9D2D9C65496B2FF66CFA6C /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
+		CF953B0E0FE942F0F84C840B69AD6283 /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
+		D09DB48D8145BFA029AAEA61818EC68B /* PryntTrimmerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PryntTrimmerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EFDB4712BBE6901ACBB7EFA76D915F /* ABVideoRangeSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ABVideoRangeSlider-Info.plist"; sourceTree = "<group>"; };
+		D69DCF3547C490CEE9AE8B3F49460173 /* Hero-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Hero-Info.plist"; sourceTree = "<group>"; };
+		D9CF58DE6213D3FB5139A4CC7597F2E3 /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
+		DB645FA54E7A84062B887F165E8AD44E /* HeroModifier+Advanced.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+Advanced.swift"; path = "Sources/HeroModifier+Advanced.swift"; sourceTree = "<group>"; };
+		DC1BE32B07941B6AC4C13F4020CF713A /* ThumbSelectorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThumbSelectorView.swift; path = PryntTrimmerView/Classes/ThumbSelectorView.swift; sourceTree = "<group>"; };
+		DDCFC1E211DFFA8F991AB39540F07E47 /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Interactive.swift"; path = "Sources/Transition/HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
+		DE388F13FA87DCA3D8E9A1DF445B6292 /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
+		DEF1832A9A5A6947948EF3BC6171DEFE /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
+		E1A95341F0467C481F972DC0FDAC8A9C /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
+		E1ACF8C1325F2567D676AECE589984F3 /* AssetVideoScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetVideoScrollView.swift; path = PryntTrimmerView/Classes/Parents/AssetVideoScrollView.swift; sourceTree = "<group>"; };
+		E283180E504BAB4C6C92EBBC8A52DC9F /* ResourceBundle-ABVideoRangeSlider-ABVideoRangeSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ABVideoRangeSlider-ABVideoRangeSlider-Info.plist"; sourceTree = "<group>"; };
+		E2F7F62C80D5E3E118337B72E895F98A /* Pods-FiverrProblem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FiverrProblem.release.xcconfig"; sourceTree = "<group>"; };
+		E66B1E07F8CC49C40AAD620950023A7D /* PryntTrimmerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PryntTrimmerView-dummy.m"; sourceTree = "<group>"; };
+		E9FE330A14A9E4865BF46055721A9C63 /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		F0F7420E22075E815C1BCD51ADA143D0 /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		F28B22D8492F884BED962D076377EF2C /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
+		F5B720A13220221882459A667509C102 /* ABThumbnailsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABThumbnailsManager.swift; path = ABVideoRangeSlider/Classes/ABThumbnailsManager.swift; sourceTree = "<group>"; };
+		FB1522F4B73F9324E1FEA2B281B8BFD9 /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		FCFAAF6D7E6A64DD2D9B486E912356A5 /* Pods-FiverrProblem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FiverrProblem-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0652372C60A8F708E605AA7DF45AABE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9413432E8A729629E6F799D5B53E06C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140C3FB1ABAABE057466F86F7DE01FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6BD99F2DE70F4FDA67AE5E0C9FF8AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A446D59771619CADF996E3FB77001EA /* Foundation.framework in Frameworks */,
+				F37A71B06EEFF6D96FA6CEC616734061 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1BE2436FA9C0AFA75A7FA0ADD09D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1930B7608D16293CE006BBFFA59D2227 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D845588D403C3A9F5E8FC3789FA08247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B556A39C957FEB80FD575D5A3A48EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12A24336665395CF64BBD1B65B87EC24 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				110673F875BEE320B82CA79684FB829D /* Hero.modulemap */,
+				3729F449FB30D82E83A583530D9F0288 /* Hero.xcconfig */,
+				DEF1832A9A5A6947948EF3BC6171DEFE /* Hero-dummy.m */,
+				D69DCF3547C490CEE9AE8B3F49460173 /* Hero-Info.plist */,
+				53C6951EFA64B1EF1EE07AA824E3E63E /* Hero-prefix.pch */,
+				DE388F13FA87DCA3D8E9A1DF445B6292 /* Hero-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hero";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22F813D332515AF653B1ABBC0F1A3772 /* PryntTrimmerView */ = {
+			isa = PBXGroup;
+			children = (
+				E1ACF8C1325F2567D676AECE589984F3 /* AssetVideoScrollView.swift */,
+				0AC3BD7B0521B48AC53442A5F50BA716 /* AVAssetTimeSelector.swift */,
+				66AF0AFBE0495A9C9D03E1FF44E4EB78 /* CropMaskView.swift */,
+				A898E29447CF929B17DBDEEFC7A5D76C /* HandlerView.swift */,
+				4F79E448F1B64FF759E1C35E4195791A /* PryntTrimmerView.swift */,
+				DC1BE32B07941B6AC4C13F4020CF713A /* ThumbSelectorView.swift */,
+				94592862BEF56FEB6476B7DDD1FA5493 /* VideoCropView.swift */,
+				3C5F90A44873BC30E10F0E11F8FA4573 /* VideoScrollView.swift */,
+				266D4E4CF70F0CF38E3C832E01D3A978 /* Support Files */,
+			);
+			path = PryntTrimmerView;
+			sourceTree = "<group>";
+		};
+		266D4E4CF70F0CF38E3C832E01D3A978 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30D85B7D8E7AB56849DBFA3E78B7AE3F /* PryntTrimmerView.modulemap */,
+				64834D482F998A5E95DB9C63B9843DC7 /* PryntTrimmerView.xcconfig */,
+				E66B1E07F8CC49C40AAD620950023A7D /* PryntTrimmerView-dummy.m */,
+				4B54E860807DDAA0215F7DACCA75D13B /* PryntTrimmerView-Info.plist */,
+				2C0D6495B79275CF6582176DDE41C064 /* PryntTrimmerView-prefix.pch */,
+				BF05434C43FF6DC2F66FB19DFD19B3AE /* PryntTrimmerView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PryntTrimmerView";
+			sourceTree = "<group>";
+		};
+		5E3C7AFE15A05A20590F103D5C6429A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EEDB24BC4E8930ED219E94BDED0B4DD /* ABVideoRangeSlider.bundle */,
+				03E376F084BFA20D5EAAD395ADFD3F96 /* ABVideoRangeSlider.framework */,
+				13E778F4B833EE5D7ABE882406A8215E /* Hero.framework */,
+				01A988A17A55F0B32A82A7C8A3B454BF /* Pods_FiverrProblem.framework */,
+				D09DB48D8145BFA029AAEA61818EC68B /* PryntTrimmerView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66A2F2FD5920C28C8081A1D221361F7F /* ABVideoRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				52887AACC248F702F76A380D13DCE920 /* ABBorder.swift */,
+				445DA05E34849B8A412A534429C54E78 /* ABEndIndicator.swift */,
+				85453F5EA482E4D62CDDBE7961592AFD /* ABProgressIndicator.swift */,
+				2DD79C974D99F826DCD87A782987895A /* ABStartIndicator.swift */,
+				F5B720A13220221882459A667509C102 /* ABThumbnailsManager.swift */,
+				B887A053F7538B3F6AA12733B0D882B3 /* ABTimeView.swift */,
+				5560C601DD6E636253E2968264A8F709 /* ABVideoHelper.swift */,
+				365BFC1A264CD1F5592697FCBF4BFD57 /* ABVideoRangeSlider.swift */,
+				B4C0A01038D1C21390FE6F2C283EF830 /* BorderLine.png */,
+				4E0075051CD88A15C650795607263D2E /* EndIndicator.png */,
+				85C6C54ED3B6C8F464AE51CA4BD0E189 /* ProgressIndicator.png */,
+				2FA2CA2BFAA66DB50EF147AADD6EADAB /* StartIndicator.png */,
+				F0D55E8509A41C330D5511059F45B050 /* Resources */,
+				CD60DC4DC044C8C3267C866AFBDA0A1A /* Support Files */,
+			);
+			path = ABVideoRangeSlider;
+			sourceTree = "<group>";
+		};
+		7C0C5A1E087AF050F9CD8DE5EDE2306A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66A2F2FD5920C28C8081A1D221361F7F /* ABVideoRangeSlider */,
+				AD2AFE01024D895A0EA913B958C3FA1F /* Hero */,
+				22F813D332515AF653B1ABBC0F1A3772 /* PryntTrimmerView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92E24E02BDA1B8F4CD582096D2DA4733 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEAA30708C1CE26F55FD7753CE8D7255 /* Pods-FiverrProblem */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AD2AFE01024D895A0EA913B958C3FA1F /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				942BEB549AC7459A1FC8E6D431C8634E /* Array+HeroModifier.swift */,
+				F28B22D8492F884BED962D076377EF2C /* BasePreprocessor.swift */,
+				D9CF58DE6213D3FB5139A4CC7597F2E3 /* CALayer+Hero.swift */,
+				C8CEFDC5F28615F400ECAB221B3487A9 /* CAMediaTimingFunction+Hero.swift */,
+				E9FE330A14A9E4865BF46055721A9C63 /* CascadePreprocessor.swift */,
+				6873E0662ABD76DE61A700312031FF36 /* CG+Hero.swift */,
+				FB1522F4B73F9324E1FEA2B281B8BFD9 /* ConditionalPreprocessor.swift */,
+				1A0F3E59CE65057F7453BAC90305D6D1 /* DefaultAnimationPreprocessor.swift */,
+				5DD30799AEBDEF33B33E490CE56C8A00 /* DispatchQueue+Hero.swift */,
+				04761AFE0C46C92E51F4E707F070A81A /* HeroAnimatorViewContext.swift */,
+				ADE4D356AF2CCB9312AFF0FAE9AA59D9 /* HeroCompatible.swift */,
+				1932D0101FC4467ED655D9DF2B19447C /* HeroContext.swift */,
+				3C6135A7C35E06A881C7DE118565BB2C /* HeroCoreAnimationViewContext.swift */,
+				3190B96AAD04C8D8F711FFF63A1CEF76 /* HeroDebugPlugin.swift */,
+				09FE51C071049F658F90D1267A8FA578 /* HeroDebugView.swift */,
+				25EEEE63E2743296E799B0187F3F8F8C /* HeroDefaultAnimator.swift */,
+				C9EEB641CD9D2D9C65496B2FF66CFA6C /* HeroModifier.swift */,
+				DB645FA54E7A84062B887F165E8AD44E /* HeroModifier+Advanced.swift */,
+				7B5B8DBFF55E960FE76CC3F3032FE75B /* HeroModifier+HeroStringConvertible.swift */,
+				C23371C220D6096EA3B7B6C760AA3CD1 /* HeroPlugin.swift */,
+				2A1AE36EA7C761BBC20826F0C55E1E22 /* HeroProgressRunner.swift */,
+				66BD95ACD1E629D76BC99D20B6A955FC /* HeroStringConvertible.swift */,
+				521E891DAF8A24488D4EC1E3882E0DF5 /* HeroTargetState.swift */,
+				9207F2A0C4001B98988C3BE8CC95255B /* HeroTransition.swift */,
+				58495B4C1A772B4C9AE6AD35ED48AAAA /* HeroTransition+Animate.swift */,
+				48CEA142FC61176766B8F96540D839A9 /* HeroTransition+Complete.swift */,
+				F0F7420E22075E815C1BCD51ADA143D0 /* HeroTransition+CustomTransition.swift */,
+				DDCFC1E211DFFA8F991AB39540F07E47 /* HeroTransition+Interactive.swift */,
+				BE2EE2E6B1C476DE01841A885C2ED0AC /* HeroTransition+Start.swift */,
+				A604397AED98E3469EDC58B111EE97F3 /* HeroTransition+UINavigationControllerDelegate.swift */,
+				5752D6777C52B9B503CDEA6CCA7222F9 /* HeroTransition+UITabBarControllerDelegate.swift */,
+				29FEDA51FEC412B833DDB373CF6C3733 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
+				A05A21E12F5DCBFB9F27A60C365F35C0 /* HeroTransitionState.swift */,
+				CF953B0E0FE942F0F84C840B69AD6283 /* HeroTypes.swift */,
+				AA85E2B2747632E6E3CD7AAA0BF725FA /* HeroViewControllerDelegate.swift */,
+				E1A95341F0467C481F972DC0FDAC8A9C /* HeroViewPropertyViewContext.swift */,
+				AB9B3673E7D547AD4A96D573EDDAA319 /* IgnoreSubviewModifiersPreprocessor.swift */,
+				24EDA7015651C0449F2CDC452DAEE55E /* Lexer.swift */,
+				0BB5D327B62723766A79868BC28C304B /* MatchPreprocessor.swift */,
+				8F878B18963BD1FB9E7A1B04D9A94356 /* Nodes.swift */,
+				21C6A1D78216F98F0477F82191DF8F3A /* Parser.swift */,
+				1AD2C13AB605F39841A21F63342757CE /* Regex.swift */,
+				1D1864C5B60B6F1AC03B75299F5BFFDA /* SourcePreprocessor.swift */,
+				30B652AB1223F15D8BDC6183BCB98398 /* SwiftSupport.swift */,
+				622BFB82CA33BD3D30DD3D10D211B80D /* UIKit+Hero.swift */,
+				AE559CB0B750C516885FF011D1C7A239 /* UIView+Hero.swift */,
+				1727D2D0B873D03FF9BF17AB0D95A9F7 /* UIViewController+Hero.swift */,
+				12A24336665395CF64BBD1B65B87EC24 /* Support Files */,
+			);
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		AEAA30708C1CE26F55FD7753CE8D7255 /* Pods-FiverrProblem */ = {
+			isa = PBXGroup;
+			children = (
+				27E9D1FD12D0AFFF71859A16C67A59F0 /* Pods-FiverrProblem.modulemap */,
+				C921F5323140A584551C8F22176A12FB /* Pods-FiverrProblem-acknowledgements.markdown */,
+				9A9F9145C3FC4925CB611FE74D6CBC9F /* Pods-FiverrProblem-acknowledgements.plist */,
+				FCFAAF6D7E6A64DD2D9B486E912356A5 /* Pods-FiverrProblem-dummy.m */,
+				2ABEE95022248DF0460F00805B321450 /* Pods-FiverrProblem-frameworks.sh */,
+				74016D2AF2F47557397334164F0FC691 /* Pods-FiverrProblem-Info.plist */,
+				9A0E78ED98D5BB56EF3B2094C3AD2EAA /* Pods-FiverrProblem-umbrella.h */,
+				150E563E5A8E0DAFCBA50433C608F1A8 /* Pods-FiverrProblem.debug.xcconfig */,
+				E2F7F62C80D5E3E118337B72E895F98A /* Pods-FiverrProblem.release.xcconfig */,
+			);
+			name = "Pods-FiverrProblem";
+			path = "Target Support Files/Pods-FiverrProblem";
+			sourceTree = "<group>";
+		};
+		CD60DC4DC044C8C3267C866AFBDA0A1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB012ED0E9F1F61CB4F0FE033606E3D9 /* ABVideoRangeSlider.modulemap */,
+				66448C226613395FF3393FCA74DAEFA5 /* ABVideoRangeSlider.xcconfig */,
+				884F9E072E443D3778D5DA7C99B3F5D4 /* ABVideoRangeSlider-dummy.m */,
+				D5EFDB4712BBE6901ACBB7EFA76D915F /* ABVideoRangeSlider-Info.plist */,
+				2F0E104ABC8AEFAD88CD077BD17D7CC7 /* ABVideoRangeSlider-prefix.pch */,
+				0FEDC9C549085DA1553C6E4CAF11B571 /* ABVideoRangeSlider-umbrella.h */,
+				E283180E504BAB4C6C92EBBC8A52DC9F /* ResourceBundle-ABVideoRangeSlider-ABVideoRangeSlider-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ABVideoRangeSlider";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				7C0C5A1E087AF050F9CD8DE5EDE2306A /* Pods */,
+				5E3C7AFE15A05A20590F103D5C6429A7 /* Products */,
+				92E24E02BDA1B8F4CD582096D2DA4733 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F0D55E8509A41C330D5511059F45B050 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		446EF4D45F5A1416F77FA0961331D042 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871A9310FFADC00A759B171CD1B61EB2 /* ABVideoRangeSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B970B31E0D0B17690A82EB2EA5E412C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5843C82FF9ACE79DDBC357FE61C08CC /* Hero-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A339BA1B223A27BCFB984A3C47E28B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3128FA0C6EF67C366889FD25B20C26B7 /* PryntTrimmerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC47E39814EB96DB07C06188E582AC5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440BE68E5175E87D0F2F7B66BDFFD791 /* Pods-FiverrProblem-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		492A3F539D36426FFCED62F4F58F688B /* PryntTrimmerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F256E2E76CAD307A29C8FD48E4430F4 /* Build configuration list for PBXNativeTarget "PryntTrimmerView" */;
+			buildPhases = (
+				86A339BA1B223A27BCFB984A3C47E28B /* Headers */,
+				29AFF14336C5C60CF4D7ECE4FCF71B99 /* Sources */,
+				AF1BE2436FA9C0AFA75A7FA0ADD09D5B /* Frameworks */,
+				90642AE968639B75967B5E9FBE4FB582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PryntTrimmerView;
+			productName = PryntTrimmerView;
+			productReference = D09DB48D8145BFA029AAEA61818EC68B /* PryntTrimmerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EE58D1C4D795B9570EE8FA9A3C93A48 /* ABVideoRangeSlider-ABVideoRangeSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFC3D8302F393BABD7620D01305CD8E /* Build configuration list for PBXNativeTarget "ABVideoRangeSlider-ABVideoRangeSlider" */;
+			buildPhases = (
+				79FC7090D0B2CDE23EAAEEF9DA6C3468 /* Sources */,
+				140C3FB1ABAABE057466F86F7DE01FB1 /* Frameworks */,
+				25DE179802868AA83C15003968387241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ABVideoRangeSlider-ABVideoRangeSlider";
+			productName = "ABVideoRangeSlider-ABVideoRangeSlider";
+			productReference = 9EEDB24BC4E8930ED219E94BDED0B4DD /* ABVideoRangeSlider.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8DD08E8115B925C1A5CB379952D15803 /* ABVideoRangeSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8046D2556672656FFA259FCA3208C6 /* Build configuration list for PBXNativeTarget "ABVideoRangeSlider" */;
+			buildPhases = (
+				446EF4D45F5A1416F77FA0961331D042 /* Headers */,
+				ED5CB4A2EAC23AC45F795C10BE485C0D /* Sources */,
+				0652372C60A8F708E605AA7DF45AABE8 /* Frameworks */,
+				7C15C8A945AFD420C443B8C14478E1B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3417B9D14AD71CDDA9B1FA869F969EA6 /* PBXTargetDependency */,
+			);
+			name = ABVideoRangeSlider;
+			productName = ABVideoRangeSlider;
+			productReference = 03E376F084BFA20D5EAAD395ADFD3F96 /* ABVideoRangeSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3893AEA4D7DBB9A086E889FC469132D /* Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A3F00AAB425AED86EEBC6CFA0C1825 /* Build configuration list for PBXNativeTarget "Hero" */;
+			buildPhases = (
+				6B970B31E0D0B17690A82EB2EA5E412C /* Headers */,
+				DE39CECDA3CDC58FBF0013519EBB9782 /* Sources */,
+				AB6BD99F2DE70F4FDA67AE5E0C9FF8AC /* Frameworks */,
+				96FB5C5368881DFB690E50E64B80D5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hero;
+			productName = Hero;
+			productReference = 13E778F4B833EE5D7ABE882406A8215E /* Hero.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D20B8BF9DDCD1DDF8DCFA8FF2E0EB23C /* Pods-FiverrProblem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B24AF87792C940BFA165405F1AC9E2E /* Build configuration list for PBXNativeTarget "Pods-FiverrProblem" */;
+			buildPhases = (
+				EC47E39814EB96DB07C06188E582AC5A /* Headers */,
+				278F3C2C1F3F7378081AD1A526A13E40 /* Sources */,
+				D845588D403C3A9F5E8FC3789FA08247 /* Frameworks */,
+				EFE48EC19F5E7861C96440F71E912F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F9516E97209F1876BBC29B359B0E5E /* PBXTargetDependency */,
+				1B74DBC5C6B26EEA379CAD60BAE02C13 /* PBXTargetDependency */,
+				C126AF2AD8A0FD23C55609D303C199ED /* PBXTargetDependency */,
+			);
+			name = "Pods-FiverrProblem";
+			productName = "Pods-FiverrProblem";
+			productReference = 01A988A17A55F0B32A82A7C8A3B454BF /* Pods_FiverrProblem.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5E3C7AFE15A05A20590F103D5C6429A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD08E8115B925C1A5CB379952D15803 /* ABVideoRangeSlider */,
+				6EE58D1C4D795B9570EE8FA9A3C93A48 /* ABVideoRangeSlider-ABVideoRangeSlider */,
+				B3893AEA4D7DBB9A086E889FC469132D /* Hero */,
+				D20B8BF9DDCD1DDF8DCFA8FF2E0EB23C /* Pods-FiverrProblem */,
+				492A3F539D36426FFCED62F4F58F688B /* PryntTrimmerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25DE179802868AA83C15003968387241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB7A04206F18E45426C2B20899D7508 /* BorderLine.png in Resources */,
+				71592D65D5A99C144B9CE0115C5F9DDF /* EndIndicator.png in Resources */,
+				E395FF2FA22F8CA5B8F672CC3C8A2798 /* ProgressIndicator.png in Resources */,
+				3E0A0BEAC7C68BAED10C1A50209407E2 /* StartIndicator.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C15C8A945AFD420C443B8C14478E1B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBC1160AEE3BB9245C4325E67916106 /* ABVideoRangeSlider.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90642AE968639B75967B5E9FBE4FB582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FB5C5368881DFB690E50E64B80D5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE48EC19F5E7861C96440F71E912F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		278F3C2C1F3F7378081AD1A526A13E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1E77A89452EC8F454C55D974BB3624 /* Pods-FiverrProblem-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AFF14336C5C60CF4D7ECE4FCF71B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032F877127CB819B89EEF1CD59F35190 /* AssetVideoScrollView.swift in Sources */,
+				A1C503843AC95229CA9962770191D8CB /* AVAssetTimeSelector.swift in Sources */,
+				EAB22516ACAA6EA3DA06A1BE26196675 /* CropMaskView.swift in Sources */,
+				B47B377106D48A971F34C95FD6027D4E /* HandlerView.swift in Sources */,
+				E6F4D1AA87BE2E09EFB06D3A7DB61858 /* PryntTrimmerView-dummy.m in Sources */,
+				425982410476D4F38E665418296EA801 /* PryntTrimmerView.swift in Sources */,
+				8FE524682461A32D247F3280857E8576 /* ThumbSelectorView.swift in Sources */,
+				79AC849669741DC41B762F02D976F3B3 /* VideoCropView.swift in Sources */,
+				084A42F97C9368ECB9C3C1BD50B83EAC /* VideoScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FC7090D0B2CDE23EAAEEF9DA6C3468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE39CECDA3CDC58FBF0013519EBB9782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBBF6F1C1E540A30DC5DB1A53D3E8D9 /* Array+HeroModifier.swift in Sources */,
+				0FE5A90BC0B6621E2EA004264E3DB35E /* BasePreprocessor.swift in Sources */,
+				041CA92C0D46D81F87C1B18020FE9D92 /* CALayer+Hero.swift in Sources */,
+				679E1C2EA93185E89E46AC2D7DF8BBB3 /* CAMediaTimingFunction+Hero.swift in Sources */,
+				52EBA869576A1B7FF128DB43C230EEE8 /* CascadePreprocessor.swift in Sources */,
+				5DDC3018F680E30345A04B35009712E7 /* CG+Hero.swift in Sources */,
+				72177310AEDF6C437F20DF4615CB21DB /* ConditionalPreprocessor.swift in Sources */,
+				D3C970377C27DBB458631F4B28F6904E /* DefaultAnimationPreprocessor.swift in Sources */,
+				A6A2559E024B45B600CC3CA211FE5B3A /* DispatchQueue+Hero.swift in Sources */,
+				CCAF138A54D9CCBE7EE681AB3A2FEE17 /* Hero-dummy.m in Sources */,
+				E4F1B141B0DD7084DA4002CA4EF6A589 /* HeroAnimatorViewContext.swift in Sources */,
+				86311C5BAE9AD426446199988F3567AF /* HeroCompatible.swift in Sources */,
+				55704DD60E8BEE2188893CABB1AADE17 /* HeroContext.swift in Sources */,
+				8AB1E598B721098E1EB51F45D7D86629 /* HeroCoreAnimationViewContext.swift in Sources */,
+				5DEDE15AAB513151B185392D0209F4BC /* HeroDebugPlugin.swift in Sources */,
+				539247331D4D80E4E552FA040A59C197 /* HeroDebugView.swift in Sources */,
+				C3AB21A4DC75127283411720780552E8 /* HeroDefaultAnimator.swift in Sources */,
+				4C8CA3AC7D7E3484EA8B78C20FA345CA /* HeroModifier+Advanced.swift in Sources */,
+				D9739FB131C5C02BA12A4E88F628EE12 /* HeroModifier+HeroStringConvertible.swift in Sources */,
+				608632DA7CE64A8D37ACF3B8B11BD48D /* HeroModifier.swift in Sources */,
+				85D6216A7732A66EB560593B3A226820 /* HeroPlugin.swift in Sources */,
+				2E8D7A67F82F92D81D014F2248C09597 /* HeroProgressRunner.swift in Sources */,
+				C4DFF2EA6A6AD7648BA02AB0EDB0915A /* HeroStringConvertible.swift in Sources */,
+				65E7526915C6C92F9DC44F140A3F0E60 /* HeroTargetState.swift in Sources */,
+				4763B2EC203665F41F33D93CF55EC1F1 /* HeroTransition+Animate.swift in Sources */,
+				FE2F2C0C6E8AE25776E5668D725AC6DF /* HeroTransition+Complete.swift in Sources */,
+				9A7AB4248E478CDA2C60C0DD5F97B66E /* HeroTransition+CustomTransition.swift in Sources */,
+				CC776C8B70A6644A8A23B66CE308E096 /* HeroTransition+Interactive.swift in Sources */,
+				94C24F4688FC7D72E2EB70186B376B26 /* HeroTransition+Start.swift in Sources */,
+				D91F76CB9193007B6FC71FF6F511B0F8 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */,
+				1D4A0EA4421D56B62087B001686F3792 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */,
+				11F8AE060A4566C9D9135514A5C68914 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				06C88826E89A352EACFE13784F08B7F6 /* HeroTransition.swift in Sources */,
+				9B6A092AE6604A4763E6D0EEAD3C3D9B /* HeroTransitionState.swift in Sources */,
+				FD4BBEFE1DE51AEBB6E45C878A16A778 /* HeroTypes.swift in Sources */,
+				0D6BFBEBAF1D18452007F08B6DB37010 /* HeroViewControllerDelegate.swift in Sources */,
+				DE8E776E8C471D1A399FC69AFDBA36DC /* HeroViewPropertyViewContext.swift in Sources */,
+				9E9A48A0F105255850019FF9D639F904 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				27D2BB7855E00D79B875CBC6F3DB6D9F /* Lexer.swift in Sources */,
+				06B0C6AE124E92EC5809C2A7030F2060 /* MatchPreprocessor.swift in Sources */,
+				C4646B7D6A6176129F77BD6B565BFE36 /* Nodes.swift in Sources */,
+				DE80B9AF667DBF5CADB551C10380A9A8 /* Parser.swift in Sources */,
+				9AB91EA6A797C9DC7D59ECA44B4E0174 /* Regex.swift in Sources */,
+				A5E29FFF6ECF9FF58C0A9B572D603FD4 /* SourcePreprocessor.swift in Sources */,
+				90B637ED180D169AF9776CEC5ABC4FE8 /* SwiftSupport.swift in Sources */,
+				BBB562E939DF58537B4EE216C7813FF7 /* UIKit+Hero.swift in Sources */,
+				36461766F1FBCA4074DBF606F39F62F4 /* UIView+Hero.swift in Sources */,
+				AA25FDDA3FE1E75463E2067B761761E7 /* UIViewController+Hero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5CB4A2EAC23AC45F795C10BE485C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7C38DDDB51AB141B192A24CB96E754 /* ABBorder.swift in Sources */,
+				72E3F2FA05F2A544EC833DE269E6FB37 /* ABEndIndicator.swift in Sources */,
+				F037C7FAD83D58530BFCD833D94FC4E3 /* ABProgressIndicator.swift in Sources */,
+				2F9BEBF24A5BE5BDD230F3A04074194E /* ABStartIndicator.swift in Sources */,
+				A574F428B0B1CC8CC0F546411C694F14 /* ABThumbnailsManager.swift in Sources */,
+				C5AB22DD42B6AA62AC5D725790F59562 /* ABTimeView.swift in Sources */,
+				AEB358B5D1B0B3ADE081FC6B8B205A05 /* ABVideoHelper.swift in Sources */,
+				44AEABC5F5679A754E992096DAA3F006 /* ABVideoRangeSlider-dummy.m in Sources */,
+				642B7D75DA02ED8CE8BD3E85574ADC9D /* ABVideoRangeSlider.swift in Sources */,
+				D74763600C338B53301552C4D9F9D2B1 /* BorderLine.png in Sources */,
+				62263A21E0650D08416E04F02DA349B2 /* EndIndicator.png in Sources */,
+				CB9E8000547AB60855A6ED368B1475FD /* ProgressIndicator.png in Sources */,
+				57E1A080775FABEE03909D2857093E92 /* StartIndicator.png in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B74DBC5C6B26EEA379CAD60BAE02C13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hero;
+			target = B3893AEA4D7DBB9A086E889FC469132D /* Hero */;
+			targetProxy = D6CB0BB544B80D9DD5FD5AB5AFC36D19 /* PBXContainerItemProxy */;
+		};
+		3417B9D14AD71CDDA9B1FA869F969EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ABVideoRangeSlider-ABVideoRangeSlider";
+			target = 6EE58D1C4D795B9570EE8FA9A3C93A48 /* ABVideoRangeSlider-ABVideoRangeSlider */;
+			targetProxy = E250BADCC447F7B03F88ED37A2CA068E /* PBXContainerItemProxy */;
+		};
+		84F9516E97209F1876BBC29B359B0E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ABVideoRangeSlider;
+			target = 8DD08E8115B925C1A5CB379952D15803 /* ABVideoRangeSlider */;
+			targetProxy = D7970CD5B6221D7C7273472905CFEDB5 /* PBXContainerItemProxy */;
+		};
+		C126AF2AD8A0FD23C55609D303C199ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PryntTrimmerView;
+			target = 492A3F539D36426FFCED62F4F58F688B /* PryntTrimmerView */;
+			targetProxy = 430FDB5996A5AADAB8AB98DC7CED2E33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F4661E7D5F438465BBFD39760A02C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3729F449FB30D82E83A583530D9F0288 /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Hero-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A1627655267A3C183B2D3367C85988E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150E563E5A8E0DAFCBA50433C608F1A8 /* Pods-FiverrProblem.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FiverrProblem/Pods-FiverrProblem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FiverrProblem/Pods-FiverrProblem.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34F2E3B006143DD6DA990271F0743BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66448C226613395FF3393FCA74DAEFA5 /* ABVideoRangeSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ABVideoRangeSlider";
+				INFOPLIST_FILE = "Target Support Files/ABVideoRangeSlider/ResourceBundle-ABVideoRangeSlider-ABVideoRangeSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ABVideoRangeSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4812C7722161295CE314C28F40961E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64834D482F998A5E95DB9C63B9843DC7 /* PryntTrimmerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PryntTrimmerView/PryntTrimmerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PryntTrimmerView/PryntTrimmerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PryntTrimmerView/PryntTrimmerView.modulemap";
+				PRODUCT_MODULE_NAME = PryntTrimmerView;
+				PRODUCT_NAME = PryntTrimmerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F3EBF379EC2222ED6E3B6CC590A7169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3729F449FB30D82E83A583530D9F0288 /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Hero-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ABDA0D25E01FA8D9ADCF1A8577313215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F7F62C80D5E3E118337B72E895F98A /* Pods-FiverrProblem.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FiverrProblem/Pods-FiverrProblem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FiverrProblem/Pods-FiverrProblem.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0165D13ED01FF04055C4BADFBF095D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66448C226613395FF3393FCA74DAEFA5 /* ABVideoRangeSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ABVideoRangeSlider";
+				INFOPLIST_FILE = "Target Support Files/ABVideoRangeSlider/ResourceBundle-ABVideoRangeSlider-ABVideoRangeSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ABVideoRangeSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B4140098976E55493E69E30BB99F6E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66448C226613395FF3393FCA74DAEFA5 /* ABVideoRangeSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ABVideoRangeSlider/ABVideoRangeSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ABVideoRangeSlider/ABVideoRangeSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ABVideoRangeSlider/ABVideoRangeSlider.modulemap";
+				PRODUCT_MODULE_NAME = ABVideoRangeSlider;
+				PRODUCT_NAME = ABVideoRangeSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E35C28D3D22B59FC5E0BD97E858BE299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66448C226613395FF3393FCA74DAEFA5 /* ABVideoRangeSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ABVideoRangeSlider/ABVideoRangeSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ABVideoRangeSlider/ABVideoRangeSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ABVideoRangeSlider/ABVideoRangeSlider.modulemap";
+				PRODUCT_MODULE_NAME = ABVideoRangeSlider;
+				PRODUCT_NAME = ABVideoRangeSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1B17B29AA8479A18A091848A6D12474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64834D482F998A5E95DB9C63B9843DC7 /* PryntTrimmerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PryntTrimmerView/PryntTrimmerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PryntTrimmerView/PryntTrimmerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PryntTrimmerView/PryntTrimmerView.modulemap";
+				PRODUCT_MODULE_NAME = PryntTrimmerView;
+				PRODUCT_NAME = PryntTrimmerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B24AF87792C940BFA165405F1AC9E2E /* Build configuration list for PBXNativeTarget "Pods-FiverrProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1627655267A3C183B2D3367C85988E /* Debug */,
+				ABDA0D25E01FA8D9ADCF1A8577313215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFC3D8302F393BABD7620D01305CD8E /* Build configuration list for PBXNativeTarget "ABVideoRangeSlider-ABVideoRangeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0165D13ED01FF04055C4BADFBF095D4 /* Debug */,
+				34F2E3B006143DD6DA990271F0743BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F256E2E76CAD307A29C8FD48E4430F4 /* Build configuration list for PBXNativeTarget "PryntTrimmerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B17B29AA8479A18A091848A6D12474 /* Debug */,
+				4812C7722161295CE314C28F40961E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8046D2556672656FFA259FCA3208C6 /* Build configuration list for PBXNativeTarget "ABVideoRangeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4140098976E55493E69E30BB99F6E56 /* Debug */,
+				E35C28D3D22B59FC5E0BD97E858BE299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A3F00AAB425AED86EEBC6CFA0C1825 /* Build configuration list for PBXNativeTarget "Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3EBF379EC2222ED6E3B6CC590A7169 /* Debug */,
+				0F4661E7D5F438465BBFD39760A02C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

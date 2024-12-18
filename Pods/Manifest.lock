@@ -1,0 +1,24 @@
+PODS:
+  - ABVideoRangeSlider (0.1.5)
+  - Hero (1.4.0)
+  - PryntTrimmerView (4.0.0)
+
+DEPENDENCIES:
+  - ABVideoRangeSlider
+  - Hero
+  - PryntTrimmerView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ABVideoRangeSlider
+    - Hero
+    - PryntTrimmerView
+
+SPEC CHECKSUMS:
+  ABVideoRangeSlider: f2b6d894170bd0951693de4c1ad625f7f9f8b6a5
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
+
+PODFILE CHECKSUM: a7b1f1e64792f7c2ada7a2e2b63ca301505eb16a
+
+COCOAPODS: 1.7.2
